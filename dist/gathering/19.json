@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "A Place for Each Pebble",
+  "image": "https://api.imd.fun/artifacts/7d9a2440397fc9c35063b5f39215a6114338b2f44eee1dd66649e1f4406e0e65",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Pinned settlement slot review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two pebbles rest in separate bowls, each with its own place."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

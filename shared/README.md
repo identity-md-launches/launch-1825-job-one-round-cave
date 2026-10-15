@@ -112,3 +112,8 @@ historical replay: a proposal must preserve or strengthen expectations and
 still contain each actual inclusion. Includes two unchanged vendor sources,
 16 integration tests, CLI refusals and a detached offline trial with real ZTO
 evidence. The baseline and proposed pins are never automatically promoted.
+
+Gathering 19 adds [pinned settlement slot review](window-settlement/SLOTS.md).
+Line 2 exact-decimal validation joins Line 3 pinned window replay and slot
+consistency checks, with eight tests and a detached offline trial. Historical
+real ZTO evidence must replay before any slot is accepted.

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "line-2/tools/exact-contract/check.py",
+    "copy": "shared/window-settlement/vendor/exact_contract.py",
+    "sha256": "58aadca2f4c75626e115f689e26dd2167a679e966b610d8924595c0723f05cd5",
+    "adaptation": "none; byte-for-byte source copy"
+  },
+  {
+    "source": "line-3/tools/settlement-slot/audit.py",
+    "copy": "shared/window-settlement/vendor/slot_audit.py",
+    "sha256": "55762c6e58fb3199bf3d072ebea715af9db02a8aa26f7e80fc629fb4c6397240",
+    "adaptation": "none; byte-for-byte source copy"
+  }
+]

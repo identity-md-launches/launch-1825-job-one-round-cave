@@ -1,0 +1,42 @@
+{
+  "ancestorSha256": "ad99d3d7d67ce1b56021059b771e155abf159a95ca51e0f6d8f90f1a9a7cc47a",
+  "wallSize": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "7d9a2440397fc9c35063b5f39215a6114338b2f44eee1dd66649e1f4406e0e65",
+  "generatedDraftSha256": "2ad2b7fbe353224fc6fa023a6e95e14630925c26ac4c299ba9cca73dbd9a0201",
+  "generatedDraftRetained": false,
+  "sourceRectangle": [
+    150,
+    520,
+    1110,
+    765
+  ],
+  "additionRectangle": [
+    767,
+    933,
+    100,
+    28
+  ],
+  "changedPixels": 838,
+  "unchangedPixels": 1571678,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewSize": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76424,
+  "imageTool": "image_gen__imagegen",
+  "prompt": "Two uneven charcoal shallow bowls each holding one red ochre pebble, isolated on white; worn prehistoric pigment, no hands, writing, logos or borders.",
+  "newHands": 0,
+  "newHandprints": 0,
+  "reviewStatus": "visually inspected full PNG and decoded JPEG",
+  "unmetVisualRequirements": [],
+  "method": "Generated pigment flattened into earth colors and transferred onto vacant ancestral stone.",
+  "visualFindings": "Recognizable heavy-lidded wide-mouthed Pepe preserved. Two small ochre pebbles in charcoal bowls added on lower vacant rock. No visible hands or handprints, no writing or prohibited symbols. Ancestor rock and framing retained."
+}

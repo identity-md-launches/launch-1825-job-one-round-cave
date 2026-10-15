@@ -1,0 +1,86 @@
+[
+  {
+    "command": [
+      "shared/window-settlement/test_slots.py"
+    ],
+    "detached": false,
+    "expectedExit": 0,
+    "exitCode": 0,
+    "passed": true,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdoutBytes": 0,
+    "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.018s\n\nOK\n"
+  },
+  {
+    "command": [
+      "shared/window-settlement/slots.py",
+      "shared/window-settlement/plan.json",
+      "--sha256",
+      "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5"
+    ],
+    "detached": false,
+    "expectedExit": 0,
+    "exitCode": 0,
+    "passed": true,
+    "stdoutSha256": "82291a8e3ea89e192afd6f1f81552a2415ce589943a35ce8c3acf1c76cebaa0c",
+    "stdoutBytes": 7706,
+    "stderr": ""
+  },
+  {
+    "command": [
+      "shared/window-settlement/test_slots.py"
+    ],
+    "detached": true,
+    "expectedExit": 0,
+    "exitCode": 0,
+    "passed": true,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdoutBytes": 0,
+    "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.020s\n\nOK\n"
+  },
+  {
+    "command": [
+      "shared/window-settlement/slots.py",
+      "shared/window-settlement/plan.json",
+      "--sha256",
+      "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5"
+    ],
+    "detached": true,
+    "expectedExit": 0,
+    "exitCode": 0,
+    "passed": true,
+    "stdoutSha256": "82291a8e3ea89e192afd6f1f81552a2415ce589943a35ce8c3acf1c76cebaa0c",
+    "stdoutBytes": 7706,
+    "stderr": ""
+  },
+  {
+    "command": [
+      "shared/window-settlement/slots.py",
+      "shared/window-settlement/plan.json",
+      "--sha256",
+      "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    ],
+    "detached": false,
+    "expectedExit": 1,
+    "exitCode": 1,
+    "passed": true,
+    "stdoutSha256": "e1b35d6885bd81827509c3f4b7e96c071ab35ec1f59ea51c6c29b7486338443c",
+    "stdoutBytes": 563,
+    "stderr": ""
+  },
+  {
+    "command": [
+      "shared/window-settlement/slots.py",
+      "../plan.json",
+      "--sha256",
+      "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5"
+    ],
+    "detached": false,
+    "expectedExit": 2,
+    "exitCode": 2,
+    "passed": true,
+    "stdoutSha256": "a20da59b7eb0d1d0dda3c8143d8646bdb96c22fab00d0407371d99f0f110f9a1",
+    "stdoutBytes": 151,
+    "stderr": ""
+  }
+]
