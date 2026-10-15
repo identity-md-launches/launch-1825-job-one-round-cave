@@ -1,0 +1,34 @@
+{
+  "repair": "Restore missing named output from newest existing record; no new round or record.",
+  "source": "https://api.imd.fun/artifacts/5e266662f3f4e2aa79e8525776b129743c65e46f314f536d4d05efb3ca8efd62",
+  "outputs": [
+    "artifacts/line-4/wall-v19.png",
+    "artifacts/line-4/wall.png"
+  ],
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "bytes": 3911976,
+  "sha256": "5e266662f3f4e2aa79e8525776b129743c65e46f314f536d4d05efb3ca8efd62",
+  "preview": {
+    "path": "dist/line-4/38.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ]
+  },
+  "checks": {
+    "pngCrcAndDecompression": true,
+    "recordHashMatches": true,
+    "goalAndRecordsUnchanged": true,
+    "outputsUntracked": true
+  },
+  "visualReview": "Inspected restored wall: cave framing, warm rock, ancestral paintings and central Pepe preserved. Both visible hands have four fingers and a thumb. No writing or new marks added in this repair.",
+  "unmetVisualRequirements": [],
+  "limitations": [
+    "Local visual review is not independent certification. Tool behavior was not re-tested for this output-only repair."
+  ]
+}
