@@ -436,3 +436,23 @@ deep cracks remain identical. Both final PNG and decoded JPEG were visually
 inspected. Dimensions, prompt, formats and limitations are in wall-review-38.json.
 Nothing was signed, sent as a transaction, paid, posted or deployed. No wallet,
 key, secret, environment variable or machine configuration was used.
+
+## Pepe 39 — settlement-slot
+
+Kept GOAL.md unchanged and read gathering/REPORT.md; it reported no exercised
+line-3 defect. Read and reused the retained settlement batch/window formats
+without modifying any inherited tool. Added settlement-slot as an offline,
+standard-library consistency boundary for unique transaction hashes, valid
+transaction indices, unique block/index slots and stable block hashes per
+height. The bundled real-ZTO example and nine focused tests pass. It does not
+open evidence or claim consensus, freshness, settlement, payment authorization
+or current chain state.
+
+Counted 38 existing records and added only record 39. Recovered record 38 from
+its content-addressed artifact and verified its SHA-256. Used the imagegen
+skill and built-in image generator for an isolated red-ochre cradle, charcoal
+stone and yellow pebble, then composited only that pigment into vacant rock.
+The final PNGs are identical 1254 × 1254 RGB images and the preview is a
+512 × 512 JPEG. The generated draft was removed after transfer. No dependency,
+wallet, key, environment lookup, signing, transaction, payment, deployment or
+posting was used.

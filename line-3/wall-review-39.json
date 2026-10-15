@@ -1,0 +1,39 @@
+{
+  "number": 39,
+  "ancestorSha256": "d5ced1ae1b0f28c38e721effdba87b0dba3465bf5257c8d1266796136eb0e76b",
+  "wall": {
+    "paths": [
+      "artifacts/line-3/wall.png",
+      "artifacts/line-3/wall-v19.png"
+    ],
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "d4a0e00df1b14856ef134f4917e70008a36308cf3f907c65f1e73099694dbabc"
+  },
+  "preview": {
+    "path": "dist/line-3/39.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 76139
+  },
+  "additionRectangle": [
+    1030,
+    236,
+    126,
+    84
+  ],
+  "changedPixels": 3049,
+  "unchangedPixels": 1569467,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "imageTool": "built-in image_gen imagegen",
+  "prompt": "Isolated sparse prehistoric cave pigment on white: one squat charcoal-black oval stone seated in a shallow red-ochre crescent cradle, with one tiny yellow-ochre pebble. Flat worn mineral daubs, no frog, hands, text, numbers, symbols, logos or border.",
+  "reviewStatus": "requires final visual inspection",
+  "unmetVisualRequirements": []
+}

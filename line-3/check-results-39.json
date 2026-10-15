@@ -1,0 +1,12 @@
+{
+  "authority": "Local checks, not independent certification",
+  "newTool": "settlement-slot",
+  "tests": {"command": "python3 -B -m unittest discover -s line-3/tools/settlement-slot -p 'test_*.py' -v", "passed": 9},
+  "demo": {"command": "python3 -B line-3/tools/settlement-slot/audit.py --demo", "exitCode": 0, "slotAudit": true},
+  "wall": {"paths": ["artifacts/line-3/wall.png", "artifacts/line-3/wall-v19.png"], "dimensions": [1254, 1254], "format": "RGB PNG", "sha256": "d4a0e00df1b14856ef134f4917e70008a36308cf3f907c65f1e73099694dbabc", "changedPixels": 3049, "outsideAdditionExact": true},
+  "preview": {"path": "dist/line-3/39.jpg", "dimensions": [512, 512], "format": "JPEG", "bytes": 76139},
+  "goalUnchanged": true,
+  "olderRecordsUnchanged": true,
+  "unmetVisualRequirements": [],
+  "limitations": "The tool audits internal slot consistency only; it does not prove consensus, freshness, payment authorization or settlement by itself."
+}
