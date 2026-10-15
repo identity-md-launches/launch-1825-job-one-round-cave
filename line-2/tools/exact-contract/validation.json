@@ -1,0 +1,107 @@
+{
+  "tool": "exact-contract",
+  "passed": true,
+  "tests_per_suite": 22,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/exact-contract/test_check.py"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "",
+      "stderr": "......................\n----------------------------------------------------------------------\nRan 22 tests in 0.011s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/exact-contract/check.py",
+        "line-2/tools/exact-contract/precision.contract.json",
+        "line-2/tools/exact-contract/at-limit.json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "{\n  \"valid\": true,\n  \"complete\": true,\n  \"errors\": [],\n  \"numeric_semantics\": \"exact decimal; integer requires an integer literal\",\n  \"sources\": {\n    \"contract\": {\n      \"sha256\": \"1c5682a5ceef9900317747da75f3ac9611648dfb511a4ad143ef972d08333b96\",\n      \"bytes\": 140\n    },\n    \"document\": {\n      \"sha256\": \"914f8d1ccfdd74e5e43eca8f4b9d1012e23468f4656dd4c11bed4d1fc37cdbd9\",\n      \"bytes\": 30\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/exact-contract/check.py",
+        "line-2/tools/exact-contract/precision.contract.json",
+        "line-2/tools/exact-contract/over-limit.json"
+      ],
+      "expected_exit": 1,
+      "exit": 1,
+      "stdout": "{\n  \"valid\": false,\n  \"complete\": true,\n  \"errors\": [\n    {\n      \"path\": \"/amount\",\n      \"rule\": \"maximum\",\n      \"message\": \"must respect maximum 9007199254740992.0\"\n    }\n  ],\n  \"numeric_semantics\": \"exact decimal; integer requires an integer literal\",\n  \"sources\": {\n    \"contract\": {\n      \"sha256\": \"1c5682a5ceef9900317747da75f3ac9611648dfb511a4ad143ef972d08333b96\",\n      \"bytes\": 140\n    },\n    \"document\": {\n      \"sha256\": \"aad6b893f4592f65f833cf6ebe9040f00dc2832a32684e41963620c18ac6ca7d\",\n      \"bytes\": 30\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/exact-contract/check.py",
+        "line-2/tools/field-relations/window.contract.json",
+        "line-2/tools/field-relations/window-plan.json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "{\n  \"valid\": true,\n  \"complete\": true,\n  \"errors\": [],\n  \"numeric_semantics\": \"exact decimal; integer requires an integer literal\",\n  \"sources\": {\n    \"contract\": {\n      \"sha256\": \"2ddbecc46bd9bab7c81b40b97765cea4a05752e00afd751213ca54f38e114054\",\n      \"bytes\": 2437\n    },\n    \"document\": {\n      \"sha256\": \"be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5\",\n      \"bytes\": 1180\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "test_check.py"
+      ],
+      "location": "detached copy under test/scratch",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "",
+      "stderr": "......................\n----------------------------------------------------------------------\nRan 22 tests in 0.017s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "check.py",
+        "precision.contract.json",
+        "at-limit.json"
+      ],
+      "location": "detached copy under test/scratch",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "{\n  \"valid\": true,\n  \"complete\": true,\n  \"errors\": [],\n  \"numeric_semantics\": \"exact decimal; integer requires an integer literal\",\n  \"sources\": {\n    \"contract\": {\n      \"sha256\": \"1c5682a5ceef9900317747da75f3ac9611648dfb511a4ad143ef972d08333b96\",\n      \"bytes\": 140\n    },\n    \"document\": {\n      \"sha256\": \"914f8d1ccfdd74e5e43eca8f4b9d1012e23468f4656dd4c11bed4d1fc37cdbd9\",\n      \"bytes\": 30\n    }\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "provenance": [
+    {
+      "path": "line-2/tools/json-contract/check.py",
+      "sha256": "c7f8ef3761069ce6778917c7b16d8fc5ed99a76b1aab50da3c9bdd3dc2e43a0c",
+      "bytes": 8631
+    },
+    {
+      "path": "line-2/tools/bounded-contract/check.py",
+      "sha256": "51b57858d6bd0738af1edac9ba596bb019765e5fe5f7c4b371b181de37b21981",
+      "bytes": 4868
+    },
+    {
+      "path": "line-2/tools/field-relations/window.contract.json",
+      "sha256": "2ddbecc46bd9bab7c81b40b97765cea4a05752e00afd751213ca54f38e114054",
+      "bytes": 2437
+    },
+    {
+      "path": "line-2/tools/field-relations/window-plan.json",
+      "sha256": "be5ee9b0eefa06067695aac1caaaa5b1dabb8a505d3025f3a9ed447e4c525cb5",
+      "bytes": 1180
+    }
+  ],
+  "chain_observation": false,
+  "meaning": "Local command results only; no independent certification."
+}

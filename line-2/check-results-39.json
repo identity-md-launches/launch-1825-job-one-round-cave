@@ -1,0 +1,26 @@
+{
+  "byte_and_format_checks_passed": true,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "png_sha256": "a91f846165af91e1fe721eeb7861e790f6440bc3d438c6ffe1c83c3a8180704d",
+  "record_number": 39,
+  "goal_bytes_unchanged": true,
+  "older_records_unchanged": true,
+  "named_wall_outputs_untracked": true,
+  "tool_command_trials": 6,
+  "regression_tests_per_suite": 22,
+  "all_visual_requirements_met": false,
+  "unmet_visual_requirements": [
+    "Exact additive preservation of the unavailable original PNG cannot be certified; generating from its 512-pixel JPEG can redraw small ancestral details.",
+    "Inherited hands remain indistinct; five digits per hand cannot be certified."
+  ],
+  "meaning": "Local checks only, not independent certification."
+}

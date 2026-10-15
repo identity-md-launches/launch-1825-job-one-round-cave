@@ -1,0 +1,54 @@
+{
+  "number": 39,
+  "name": "True Weight",
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall-v19.png",
+      "artifacts/line-2/wall.png"
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2318771,
+    "sha256": "a91f846165af91e1fe721eeb7861e790f6440bc3d438c6ffe1c83c3a8180704d"
+  },
+  "preview": {
+    "path": "dist/line-2/39.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 73899
+  },
+  "ancestor": {
+    "record": "dist/line-2/38.json",
+    "expected_full_png_sha256": "24d084c4244f4bf842ea5bec6b0930e0a01efb00cd9bbdca192d08fdaa4d339c",
+    "full_png_available": false,
+    "source_used": "dist/line-2/38.jpg",
+    "preview_sha256": "d75f4fa35a50bc205cbca5dcd74eaad1a0eb864be2139ca02b8a0899c8970874",
+    "retrieval": "Public artifact GET failed with Temporary failure in name resolution; web open also failed."
+  },
+  "generation_tool": "image_gen.imagegen",
+  "inline_bytes_used": true,
+  "outside_workspace_generated_file_read": false,
+  "visual_review": {
+    "steps": [
+      "Inspect latest retained ancestor JPEG",
+      "Inspect whole finished 1254-pixel PNG",
+      "Inspect decoded final 512-pixel JPEG"
+    ],
+    "pepe": "Central wide mouth and heavy-lidded eyes remain recognizable.",
+    "rock_framing_light": "Recognizable inherited warm cave appearance, cracks, water and framing retained through reference editing; exact original detail unavailable.",
+    "new_mark": "Two red ochre stones above a rough charcoal stroke in the lower left.",
+    "hands_added": 0,
+    "handprints_added": 0,
+    "inherited_digits": "Indistinct; exact five-digit count cannot be certified.",
+    "prohibited_new_content_observed": false
+  },
+  "unmet_visual_requirements": [
+    "Exact additive preservation of the unavailable original PNG cannot be certified; generating from its 512-pixel JPEG can redraw small ancestral details.",
+    "Inherited hands remain indistinct; five digits per hand cannot be certified."
+  ],
+  "pixel_identity_claim": false,
+  "independent_certification": false
+}
