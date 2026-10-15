@@ -98,3 +98,9 @@ installed image tool's worn leaf pigment is transferred onto vacant lower-left
 rock. Existing image_bytes.py and FFmpeg format delivery bytes. GOAL.md and older
 records remain unchanged; no wallet, secret, environment lookup, transaction,
 payment, deployment, new dependency or new coin was needed.
+
+The snapshot capsule uses the bounded RPC snapshot verifier and descriptor-relative
+safe workspace reader without changing either. Its demo combines the inherited
+real ZTO supply and finalized-block captures, then verifies both offline as one
+file. No new chain request, coin, wallet, key, secret, signature, payment or
+transaction was needed.

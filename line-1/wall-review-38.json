@@ -1,0 +1,22 @@
+{
+  "record": 38,
+  "ancestor_sha256": "2c89f26ab47a7cf0dbf040b9d11b6d50bb83ed24019d3b48b667c04f0b3dbca5",
+  "output_sha256": "e1eaec71d20b1c730f74f2d7497e8ed90bbdf241804a0ae66f6d77dcaf901474",
+  "wall": {
+    "path": "artifacts/line-1/wall-v19.png",
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3987745
+  },
+  "thumbnail": {
+    "path": "dist/line-1/38.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG"
+  },
+  "preservation": "Only the generated ochre sealed-record mark was added in a 118x111 pixel patch at (1016,812); all pixels outside the patch match record 37 exactly.",
+  "visual_review": "Full PNG and decoded 512-pixel JPEG inspected. The existing central Pepe and both inherited hands remain visible; cave rock, cracks, water and framing remain. New sealed stone vessel with wave motif on open lower-right rock. No text, numbers, logos, watermark, border or frame observed.",
+  "unmet_visual_requirements": []
+}
